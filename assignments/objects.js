@@ -30,11 +30,11 @@ const employee1 = {
 
 const employee2 = {
   "id": 2,
-  name: "Kennan",
+  "name": "Kennan",
   "email": "kdiben1@tinypic.com",
   "gender": "M",
   speak: function () {
-    return "Hello, my name is " + employee2.name
+    return "Hello, my name is " + employee2["name"]
   }
 }
 
