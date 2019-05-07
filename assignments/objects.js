@@ -69,7 +69,7 @@ const employee5 = {
 
 // Mitzi's name
 
-console.log(employee1.name);
+console.log(employee1["name"]);
 
 
 // Kennan's ID
